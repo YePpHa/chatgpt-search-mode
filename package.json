@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-search-mode",
   "displayName": "ChatGPT Search Mode",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Make the OpenAI ChatGPT search mode available in the OpenAI ChatGPT web app.",
   "main": "index.js",
   "scripts": {
