@@ -24,9 +24,13 @@ can make it a bit harder to get the correct search results which in the end can
 cause it to answer incorrectly due to the poor quality of the search.
 
 ## How do I use it?
-You need to build the extension and then install it in your browser. I've not
-published it as it's just a proof of concept. It should work in both Firefox and
-Chrome.
+You need to build the extension and then install it in your browser (or download
+from https://github.com/YePpHa/chatgpt-search-mode/releases/tag/v0.0.1). I've
+not published it as it's just a proof of concept. It should work in both Firefox
+and Chrome.
+
+If you don't know how to build or install the extension then just ask ChatGPT to
+help you with it.
 
 If you need to make a manifest v3 version just build like normal and then run
 ```bash
