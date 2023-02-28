@@ -39,7 +39,18 @@ After you've added it to your browser a new button will appear in the top left
 just under the `New chat` button. Clicking on it will create a new chat with the
 prompt pasted in.
 
+Note: the extension actually looks for `{search} <query>` in all messages. So if
+you get ChatGPT to write that in a chat it will also initiate a search even if
+you haven't clicked on the `New Search Chat` button.
+
+Note 2: the extension will hide the search results by default. If you click on
+it it will expand and show the search results. This was done to make it easier
+to navigate without getting distracted by the wall of search results.
+
 ## What's the next step?
-It would probably be an idea to try to optimise the prompt. It could probably be
+- It would probably be an idea to try to optimise the prompt. It could probably be
 able to make better search queries and figure out when it actually needs to
 search for something.
+- The current method to start a new chat with search is a bit hacky. It
+currently dissapears sometimes. So making it more stable or figuring out a
+better way to do the function.
