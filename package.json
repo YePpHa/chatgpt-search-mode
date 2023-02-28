@@ -1,0 +1,20 @@
+{
+  "name": "chatgpt-search-mode",
+  "displayName": "ChatGPT Search Mode",
+  "version": "0.0.0",
+  "description": "Make the OpenAI ChatGPT search mode available in the OpenAI ChatGPT web app.",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run build:content-script && pnpm run build:manifest",
+    "build:manifest": "node bin/build-manifest.js --manifest 2 > dist/manifest.json",
+    "build:content-script": "esbuild --bundle --sourcemap --target=es2017 --format=esm --outfile=dist/content-script.js src/content-script/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "argparse": "^2.0.1",
+    "esbuild": "^0.17.10"
+  }
+}
